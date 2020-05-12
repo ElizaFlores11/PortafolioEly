@@ -1,0 +1,195 @@
+@font-face{
+    font-family: 'Santuy' ;
+    src: url('../fonts/Santuy.otf'); 
+}
+@font-face{
+    font-family: 'Sanford-0103_demo' ;
+    src: url('../fonts/Sanford-0103_demo.ttf'); 
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FCE1CE ;
+}
+.content-section{
+    padding: 20px;
+    margin:auto;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 30px;
+    border: 10px solid white;
+    border-radius: 5px;
+    font-family: 'Sanford-0103_demo';
+ 
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    background-color: #EDBB99;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+     font-family: 'eacologica';
+ 
+}
+header img{
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+}
+/**Menú**/
+.menu-togle{
+    display: none;
+    /*background-color: #F3BA00;*/
+    padding: 1em;
+    top: 5em;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after{
+    content: '';
+    display: block;
+    background: black;
+    height: 3px;
+    width: 1.75em;
+    border-radius: 3px;
+}
+
+.hamburger::before{
+    transform: translateY(-6px);
+} 
+
+.hamburger::after{
+    transform: translateY(3px);
+}
+
+/*
+.site-nav{
+   background-color: #F3BA00;
+}*/
+
+.site-nav-open{
+    height:auto;
+}
+
+.site-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*
+.site-nav li{
+    border-right: 1px solid #F3BA00;
+}
+.site-nav li:last-child{
+    border-right: none;
+}*/
+
+.site-nav a{
+    color: black;
+    display: block;
+    padding: 1em 2em;
+    font-size: 15px;
+    font-family: 'Santuy';
+    text-decoration: none;
+    font-size: 27px; 
+}
+
+.site-nav a:hover{
+    background-color: black;
+    opacity: 0.8;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid yellow;
+}
+.img-start{
+    padding: 30px;
+    width: 70%;
+    justify-content: flex-start;
+    text-align: center;
+}
+.img-start img{
+    width: 300px;
+}
+.name-author{
+    width: 30%;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 20px;
+}
+.photo-start{
+    border-radius: 10px;
+}
+
+.description-about{
+    padding-top: 130px;
+    width: 70%;
+    justify-content: flex-start;
+    text-align: center;
+}
+.img-about{
+    padding: 20px;
+    width: 30%;
+    justify-content: flex-end;
+    text-align: center;
+}
+.skill{
+    padding: 50px;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+}
+.skill table{
+    width: 100%;
+}
+.img-skills{
+    width: 150px;
+    border-radius: 50px;
+}
+
+.proyect{
+    display: flex; 
+    justify-content: space-around;
+}
+.descripcion-proyect{
+    width: 300px; 
+    border-radius: 10px;
+    padding: 0px;
+    border: 1px solid hsla(213, 49%, 65%, 0.849);
+    background-color: hsla(48, 91%, 83%, 0.356)  ;
+}
+.descripcion-proyect h2{
+    text-align: center;
+}
+.descripcion-proyect img{
+    margin-left: 50px;
+    background: white;
+}
+.descripcion-proyect p{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 50px;
+    
+}
+footer{
+    margin:auto;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+} 
+.img-footer{
+    width: 100px;
+    border-radius: 50px;
+}
