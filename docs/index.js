@@ -1,6 +1,6 @@
-import { renderStart } from './start.js';
-import { renderSoft } from './soft.js';
-import { renderTech } from './tech.js';
+import { renderStart } from '/start.js';
+import { renderSoft } from '/soft.js';
+import { renderTech } from '/tech.js';
 import { renderProyect } from '/proyect.js'; 
 //let currentRoute = "/"
 let root = document.querySelector('#root')
