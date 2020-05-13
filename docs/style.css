@@ -1,7 +1,4 @@
-@font-face{
-    font-family: 'Santuy' ;
-    src: url('../fonts/Santuy.otf'); 
-}
+
 @font-face{
     font-family: 'Sanford-0103_demo' ;
     src: url('../fonts/Sanford-0103_demo.ttf'); 
@@ -29,9 +26,7 @@ header{
     background-color: #EDBB99;
     display: flex;
     flex-direction: row;
-     justify-content: space-between;
-     font-family: 'eacologica';
- 
+     justify-content: space-between; 
 }
 header img{
     padding: 15px;
