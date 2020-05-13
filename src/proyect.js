@@ -3,15 +3,27 @@ export const renderProyect = () =>{
     <div class="proyect">
         <div class="descripcion-proyect">  
             <h2>TRIPLIFE </h2>
-            <p>Hola proyect</p>
+            <p>Social Network, para viajeros creada para compartir y recordar tus historias,
+             fotos y tips con otros viajeros que disfrutan vivir a través de los viajes. </br> </p>
+             <a href="#" class="links">Repositorio</a>
+             <a href="#" class="links">Demo</a>
+             </br></br></br>
         </div>
         <div class="descripcion-proyect">  
             <h2> RICK & MORTY</h2>
-            <p>Hola proyect</p>
+            <p> Data de Rick and Morty, para seguir aprendiendo DOM, HTML y Js Se trabajo en dupla para poder avanzar y 
+            poder entender como piensa, buena comunicación con las compañeras</p>
+            <a href="#"  class="links">Repositorio</a>
+             <a href="#"  class="links">Demo</a>
+             </br></br></br>
         </div>
         <div class="descripcion-proyect">  
-            <h2>CIFRADOR CESAR </h2>
-            <p>Hola proyect</p>
+            <h2>BULLYING SCHOOL </h2>
+            <p>Se utiliza para enviar mensaje ocultos a los profesores, cuando los estudiantes 
+            son amenazados y tienen miedo de expresarlo a un profesor o tutor</p>
+            <a href="#"  class="links">Repositorio</a>
+             <a href="#"  class="links">Demo</a>
+             </br></br></br>
         </div>
     </div>
         `; 
