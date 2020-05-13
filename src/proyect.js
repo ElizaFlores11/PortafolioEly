@@ -21,7 +21,7 @@ export const renderProyect = () =>{
             <h2>BULLYING SCHOOL </h2>
             <p>Se utiliza para enviar mensaje ocultos a los profesores, cuando los estudiantes 
             son amenazados y tienen miedo de expresarlo a un profesor o tutor</p>
-            <a href="https://github.com/ElizaFlores11/CDMX009-Social-Network"  class="links">Repositorio</a>
+            <a href="https://github.com/ElizaFlores11/CDMX009-Social-Network" target="_black"  class="links">Repositorio</a>
              <a href="#"  class="links">Demo</a>
              </br></br></br>
         </div>
